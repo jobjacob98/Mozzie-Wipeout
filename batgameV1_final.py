@@ -8,12 +8,12 @@ flag_bat_game=0
 score=0
 gameDisplay = pygame.display.set_mode((width,height))
 pygame.display.set_caption("BUZZ KILL")
-icon = pygame.image.load("imagesbat/icon.png")
-background = pygame.image.load("imagesbat/background.png")
-end=pygame.image.load("imagesbat/end.png")
-front=pygame.image.load("imagesbat/front.png")
-swatter = pygame.image.load("imagesbat/swatter.png")
-instruction=pygame.image.load("imagesbat/instruction.png")
+icon = pygame.image.load("images/imagesbat/icon.png")
+background = pygame.image.load("images/imagesbat/background.png")
+end=pygame.image.load("images/imagesbat/end.png")
+front=pygame.image.load("images/imagesbat/front.png")
+swatter = pygame.image.load("images/imagesbat/swatter.png")
+instruction=pygame.image.load("images/imagesbat/instruction.png")
 pygame.display.set_icon(icon)
 black=(0,0,0)
 # setup mixer to avoid sound lag
