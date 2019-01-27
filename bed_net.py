@@ -510,38 +510,38 @@ class Sprite:
                 
 #main() begins
 #loading an image into a variable
-img_char13=pygame.image.load("images/f1.png").convert_alpha()
+img_char13=pygame.image.load("images/images/f1.png").convert_alpha()
 img_char13=pygame.transform.scale(img_char13,(100,110))
 
-img_char14=pygame.image.load("images/f2.png").convert_alpha()
+img_char14=pygame.image.load("images/images/f2.png").convert_alpha()
 img_char14=pygame.transform.scale(img_char14,(100,110))
 
 #loading room
-img_room=pygame.image.load("images/room_bed.png").convert_alpha()
+img_room=pygame.image.load("images/images/room_bed.png").convert_alpha()
 img_room=pygame.transform.scale(img_room,(800,600))
 
 #loading net....blit the image at (0,0) 1st and then edit positoning
-net_right=pygame.image.load("images/net_right.png").convert_alpha()
-net_left=pygame.image.load("images/net_left.png").convert_alpha()
+net_right=pygame.image.load("images/images/net_right.png").convert_alpha()
+net_left=pygame.image.load("images/images/net_left.png").convert_alpha()
 
 #Shop images
-shop_1=pygame.image.load("images/shop new.png").convert_alpha()
-shop_detail1=pygame.image.load("images/shop_detail1.png").convert_alpha()
-shop_detail2=pygame.image.load("images/shop_detail2.png").convert_alpha()
-shop_detail3=pygame.image.load("images/shop_detail3.png").convert_alpha()
-shop_detail4=pygame.image.load("images/shop_detail4.png").convert_alpha()
-shop_detail5=pygame.image.load("images/shop_detail5.png").convert_alpha()
-shop_detail6=pygame.image.load("images/shop_detail6.png").convert_alpha()
-shop_detail7=pygame.image.load("images/shop_detail7.png").convert_alpha()
-shop_detail8=pygame.image.load("images/shop_detail8.png").convert_alpha()
-shop_cash=pygame.image.load("images/shop cash.png").convert_alpha()
+shop_1=pygame.image.load("images/images/shop new.png").convert_alpha()
+shop_detail1=pygame.image.load("images/images/shop_detail1.png").convert_alpha()
+shop_detail2=pygame.image.load("images/images/shop_detail2.png").convert_alpha()
+shop_detail3=pygame.image.load("images/images/shop_detail3.png").convert_alpha()
+shop_detail4=pygame.image.load("images/images/shop_detail4.png").convert_alpha()
+shop_detail5=pygame.image.load("images/images/shop_detail5.png").convert_alpha()
+shop_detail6=pygame.image.load("images/images/shop_detail6.png").convert_alpha()
+shop_detail7=pygame.image.load("images/images/shop_detail7.png").convert_alpha()
+shop_detail8=pygame.image.load("images/images/shop_detail8.png").convert_alpha()
+shop_cash=pygame.image.load("images/images/shop cash.png").convert_alpha()
 #Inventory images
-inventory1=pygame.image.load("images/inventory.png").convert_alpha()
+inventory1=pygame.image.load("images/images/inventory.png").convert_alpha()
 #Repellent images
-rep1=pygame.image.load("images/repellent1.png").convert_alpha()
+rep1=pygame.image.load("images/images/repellent1.png").convert_alpha()
 
 #Bed net image
-bed_net=pygame.image.load("images/bednet.png").convert_alpha()
+bed_net=pygame.image.load("images/images/bednet.png").convert_alpha()
 
 #Creating a class object of class Sprite
 Sprite1=Sprite(0,0,0,0)
@@ -585,16 +585,16 @@ while gameLoop:
                 moveX = -4
                 Sprite1.images=[]
                 #loading an image into a variable
-                img_char1=pygame.image.load("images/l1.png").convert_alpha()
+                img_char1=pygame.image.load("images/images/images/l1.png").convert_alpha()
                 img_char1=pygame.transform.scale(img_char1,(100,110))
                 
-                img_char2=pygame.image.load("images/l3.png").convert_alpha()
+                img_char2=pygame.image.load("images/images/l3.png").convert_alpha()
                 img_char2=pygame.transform.scale(img_char2,(100,110))
 
-                img_char3=pygame.image.load("images/l5.png").convert_alpha()
+                img_char3=pygame.image.load("images/images/l5.png").convert_alpha()
                 img_char3=pygame.transform.scale(img_char3,(100,110))
                 
-                img_char4=pygame.image.load("images/l7.png").convert_alpha()
+                img_char4=pygame.image.load("images/images/l7.png").convert_alpha()
                 img_char4=pygame.transform.scale(img_char4,(100,110))
                 
                 Sprite1.images.append(img_char1)
@@ -607,16 +607,16 @@ while gameLoop:
                 moveX = 4
                 Sprite1.images=[]
                 #loading an image into a variable
-                img_char5=pygame.image.load("images/r1.png").convert_alpha()
+                img_char5=pygame.image.load("images/images/r1.png").convert_alpha()
                 img_char5=pygame.transform.scale(img_char5,(100,110))
                 
-                img_char6=pygame.image.load("images/r3.png").convert_alpha()
+                img_char6=pygame.image.load("images/images/r3.png").convert_alpha()
                 img_char6=pygame.transform.scale(img_char6,(100,110))
 
-                img_char7=pygame.image.load("images/r5.png").convert_alpha()
+                img_char7=pygame.image.load("images/images/r5.png").convert_alpha()
                 img_char7=pygame.transform.scale(img_char7,(100,110))
                 
-                img_char8=pygame.image.load("images/r7.png").convert_alpha()
+                img_char8=pygame.image.load("images/images/r7.png").convert_alpha()
                 img_char8=pygame.transform.scale(img_char8,(100,110))
                 
                 Sprite1.images.append(img_char5)
@@ -628,16 +628,16 @@ while gameLoop:
                 moveY = -4
                 Sprite1.images=[]
                 #loading an image into a variable
-                img_char9=pygame.image.load("images/b1.png").convert_alpha()
+                img_char9=pygame.image.load("images/images/b1.png").convert_alpha()
                 img_char9=pygame.transform.scale(img_char9,(100,110))
                 
-                img_char10=pygame.image.load("images/b2.png").convert_alpha()
+                img_char10=pygame.image.load("images/images/b2.png").convert_alpha()
                 img_char10=pygame.transform.scale(img_char10,(100,110))
 
-                img_char11=pygame.image.load("images/b1.png").convert_alpha()
+                img_char11=pygame.image.load("images/images/b1.png").convert_alpha()
                 img_char11=pygame.transform.scale(img_char11,(100,110))
                 
-                img_char12=pygame.image.load("images/b2.png").convert_alpha()
+                img_char12=pygame.image.load("images/images/b2.png").convert_alpha()
                 img_char12=pygame.transform.scale(img_char12,(100,110))
                 
                 Sprite1.images.append(img_char9)
@@ -650,16 +650,16 @@ while gameLoop:
                 moveY = 4
                 Sprite1.images=[]
                 #loading an image into a variable
-                img_char13=pygame.image.load("images/f1.png").convert_alpha()
+                img_char13=pygame.image.load("images/images/f1.png").convert_alpha()
                 img_char13=pygame.transform.scale(img_char13,(100,110))
                 
-                img_char14=pygame.image.load("images/f2.png").convert_alpha()
+                img_char14=pygame.image.load("images/images/f2.png").convert_alpha()
                 img_char14=pygame.transform.scale(img_char14,(100,110))
 
-                img_char15=pygame.image.load("images/f1.png").convert_alpha()
+                img_char15=pygame.image.load("images/images/f1.png").convert_alpha()
                 img_char15=pygame.transform.scale(img_char15,(100,110))
                 
-                img_char16=pygame.image.load("images/f2.png").convert_alpha()
+                img_char16=pygame.image.load("images/images/f2.png").convert_alpha()
                 img_char16=pygame.transform.scale(img_char16,(100,110))
                 
                 Sprite1.images.append(img_char13)
