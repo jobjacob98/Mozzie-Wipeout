@@ -11,4 +11,4 @@ How to use:
 3) Run the mozzie.py file.
 4) Enjoy Playing!
 
-### Feel free contact me for any help/doubts regarding this project!! ###
+### Feel free to contact me for any help/doubts regarding this project!! ###
