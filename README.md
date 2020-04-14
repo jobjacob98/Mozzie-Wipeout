@@ -10,5 +10,3 @@ How to use:
 2) Download this repo.
 3) Run the mozzie.py file.
 4) Enjoy Playing!
-
-### Feel free to contact me for any help/doubts regarding this project!! ###
